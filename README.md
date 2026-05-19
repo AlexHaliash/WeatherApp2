@@ -1,3 +1,4 @@
+# WeatherApp2
 # WeatherApp (Compose Multiplatform)
 
 Кроссплатформенное приложение погоды: **Android**, **iOS**, **Desktop (Linux/Windows/macOS)** и **Web**.
