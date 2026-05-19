@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.weatherapp.WeatherUtilsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-18T18:42:59.362Z" hostname="LAPTOP-8OLA8TFP" time="0.001">
+  <properties/>
+  <testcase name="getWeatherEmoji_clear_returnsSun[jvm]" classname="com.example.weatherapp.WeatherUtilsTest" time="0.001"/>
+  <testcase name="getWeatherEmoji_rain_returnsRainCloud[jvm]" classname="com.example.weatherapp.WeatherUtilsTest" time="0.0"/>
+  <testcase name="getWeatherEmoji_unknown_returnsThermometer[jvm]" classname="com.example.weatherapp.WeatherUtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

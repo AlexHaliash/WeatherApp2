@@ -1,0 +1,5 @@
+## Copy to local.properties (this file is gitignored)
+sdk.dir=C\:\\Users\\YourUser\\AppData\\Local\\Android\\Sdk
+
+# Optional: override API key from gradle.properties
+# OPENWEATHER_API_KEY=your_openweathermap_key

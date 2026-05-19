@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.weatherapp.SharedLogicAndroidHostTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-18T18:45:30.695Z" hostname="LAPTOP-8OLA8TFP" time="0.001">
+  <properties/>
+  <testcase name="platformKind_isAndroid" classname="com.example.weatherapp.SharedLogicAndroidHostTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

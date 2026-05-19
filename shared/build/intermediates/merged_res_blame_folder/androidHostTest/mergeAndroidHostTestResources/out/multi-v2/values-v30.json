@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.weatherapp.shared.test.shared-mergeAndroidHostTestResources-0:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Home\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a7440b4f2c308a90c50288bc6e708cdc\\gradle\\caches\\9.1.0\\transforms\\09aa0542c10f8615660129dd706e3179\\workspace\\transformed\\material3\\res\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.weatherapp.WeatherRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-18T18:42:59.349Z" hostname="LAPTOP-8OLA8TFP" time="0.012">
+  <properties/>
+  <testcase name="loadWeather_cachesResult[jvm]" classname="com.example.weatherapp.WeatherRepositoryTest" time="0.006"/>
+  <testcase name="loadWeather_withBlankCity_returnsFailure[jvm]" classname="com.example.weatherapp.WeatherRepositoryTest" time="0.002"/>
+  <testcase name="loadWeather_withMockApi_returnsMoscow[jvm]" classname="com.example.weatherapp.WeatherRepositoryTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

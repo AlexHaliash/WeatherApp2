@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weatherapp.shared.test" >
+4
+5    <uses-sdk
+5-->C:\Users\Home\AndroidStudioProjects\WeatherApp\shared\build\intermediates\tmp\manifest\test\tempFile1ProcessTestManifest10159280185950845292.xml:5:5-74
+6        android:minSdkVersion="24"
+6-->C:\Users\Home\AndroidStudioProjects\WeatherApp\shared\build\intermediates\tmp\manifest\test\tempFile1ProcessTestManifest10159280185950845292.xml:5:15-41
+7        android:targetSdkVersion="36" />
+7-->C:\Users\Home\AndroidStudioProjects\WeatherApp\shared\build\intermediates\tmp\manifest\test\tempFile1ProcessTestManifest10159280185950845292.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\Home\AndroidStudioProjects\WeatherApp\shared\build\intermediates\tmp\manifest\test\tempFile1ProcessTestManifest10159280185950845292.xml:9:5-11:84
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->C:\Users\Home\AndroidStudioProjects\WeatherApp\shared\build\intermediates\tmp\manifest\test\tempFile1ProcessTestManifest10159280185950845292.xml:9:22-76
+11        android:label="Tests for com.example.weatherapp.shared.test"
+11-->C:\Users\Home\AndroidStudioProjects\WeatherApp\shared\build\intermediates\tmp\manifest\test\tempFile1ProcessTestManifest10159280185950845292.xml:11:22-82
+12        android:targetPackage="com.example.weatherapp.shared.test" />
+12-->C:\Users\Home\AndroidStudioProjects\WeatherApp\shared\build\intermediates\tmp\manifest\test\tempFile1ProcessTestManifest10159280185950845292.xml:10:22-80
+13
+14    <permission
+14-->[androidx.core:core:1.16.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\92c85a94f469506b06db992e339e7342\workspace\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.weatherapp.shared.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.16.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\92c85a94f469506b06db992e339e7342\workspace\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.16.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\92c85a94f469506b06db992e339e7342\workspace\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.weatherapp.shared.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.16.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\92c85a94f469506b06db992e339e7342\workspace\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.16.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\92c85a94f469506b06db992e339e7342\workspace\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+19    <uses-permission android:name="android.permission.REORDER_TASKS" />
+19-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:24:5-72
+19-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:24:22-69
+20
+21    <queries>
+21-->[androidx.test:runner:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\cb84b601a9690655c039ce6d66c3657a\workspace\transformed\runner-1.5.0\AndroidManifest.xml:24:5-28:15
+22        <package android:name="androidx.test.orchestrator" />
+22-->[androidx.test:runner:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\cb84b601a9690655c039ce6d66c3657a\workspace\transformed\runner-1.5.0\AndroidManifest.xml:25:9-62
+22-->[androidx.test:runner:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\cb84b601a9690655c039ce6d66c3657a\workspace\transformed\runner-1.5.0\AndroidManifest.xml:25:18-59
+23        <package android:name="androidx.test.services" />
+23-->[androidx.test:runner:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\cb84b601a9690655c039ce6d66c3657a\workspace\transformed\runner-1.5.0\AndroidManifest.xml:26:9-58
+23-->[androidx.test:runner:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\cb84b601a9690655c039ce6d66c3657a\workspace\transformed\runner-1.5.0\AndroidManifest.xml:26:18-55
+24        <package android:name="com.google.android.apps.common.testing.services" />
+24-->[androidx.test:runner:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\cb84b601a9690655c039ce6d66c3657a\workspace\transformed\runner-1.5.0\AndroidManifest.xml:27:9-83
+24-->[androidx.test:runner:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\cb84b601a9690655c039ce6d66c3657a\workspace\transformed\runner-1.5.0\AndroidManifest.xml:27:18-80
+25    </queries>
+26
+27    <application
+27-->C:\Users\Home\AndroidStudioProjects\WeatherApp\shared\build\intermediates\tmp\manifest\test\tempFile1ProcessTestManifest10159280185950845292.xml:7:5-46
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.16.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\92c85a94f469506b06db992e339e7342\workspace\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+29        android:debuggable="true" >
+29-->C:\Users\Home\AndroidStudioProjects\WeatherApp\shared\build\intermediates\tmp\manifest\test\tempFile1ProcessTestManifest10159280185950845292.xml:7:18-43
+30        <provider
+30-->[org.jetbrains.compose.components:components-resources-android:1.11.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\9f529ccb44beb897bebe6eb8eacc6e49\workspace\transformed\library-release\AndroidManifest.xml:8:9-13:20
+31            android:name="org.jetbrains.compose.resources.AndroidContextProvider"
+31-->[org.jetbrains.compose.components:components-resources-android:1.11.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\9f529ccb44beb897bebe6eb8eacc6e49\workspace\transformed\library-release\AndroidManifest.xml:9:13-82
+32            android:authorities="com.example.weatherapp.shared.test.resources.AndroidContextProvider"
+32-->[org.jetbrains.compose.components:components-resources-android:1.11.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\9f529ccb44beb897bebe6eb8eacc6e49\workspace\transformed\library-release\AndroidManifest.xml:10:13-84
+33            android:enabled="true"
+33-->[org.jetbrains.compose.components:components-resources-android:1.11.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\9f529ccb44beb897bebe6eb8eacc6e49\workspace\transformed\library-release\AndroidManifest.xml:11:13-35
+34            android:exported="false" >
+34-->[org.jetbrains.compose.components:components-resources-android:1.11.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\9f529ccb44beb897bebe6eb8eacc6e49\workspace\transformed\library-release\AndroidManifest.xml:12:13-37
+35        </provider>
+36
+37        <uses-library
+37-->[androidx.window:window:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\031d09751777303007620f144ac382c1\workspace\transformed\window-1.5.0\AndroidManifest.xml:23:9-25:40
+38            android:name="androidx.window.extensions"
+38-->[androidx.window:window:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\031d09751777303007620f144ac382c1\workspace\transformed\window-1.5.0\AndroidManifest.xml:24:13-54
+39            android:required="false" />
+39-->[androidx.window:window:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\031d09751777303007620f144ac382c1\workspace\transformed\window-1.5.0\AndroidManifest.xml:25:13-37
+40        <uses-library
+40-->[androidx.window:window:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\031d09751777303007620f144ac382c1\workspace\transformed\window-1.5.0\AndroidManifest.xml:26:9-28:40
+41            android:name="androidx.window.sidecar"
+41-->[androidx.window:window:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\031d09751777303007620f144ac382c1\workspace\transformed\window-1.5.0\AndroidManifest.xml:27:13-51
+42            android:required="false" />
+42-->[androidx.window:window:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\031d09751777303007620f144ac382c1\workspace\transformed\window-1.5.0\AndroidManifest.xml:28:13-37
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\462152523497b52c81279fc5e7c2596f\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\462152523497b52c81279fc5e7c2596f\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+46            android:authorities="com.example.weatherapp.shared.test.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\462152523497b52c81279fc5e7c2596f\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\462152523497b52c81279fc5e7c2596f\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\462152523497b52c81279fc5e7c2596f\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\462152523497b52c81279fc5e7c2596f\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\462152523497b52c81279fc5e7c2596f\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.11.0-beta01] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\303eefbeaef22741576f4912443670f7\workspace\transformed\lifecycle-process-2.11.0-beta01\AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.11.0-beta01] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\303eefbeaef22741576f4912443670f7\workspace\transformed\lifecycle-process-2.11.0-beta01\AndroidManifest.xml:30:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.11.0-beta01] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\303eefbeaef22741576f4912443670f7\workspace\transformed\lifecycle-process-2.11.0-beta01\AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[com.russhwolf:multiplatform-settings-no-arg-android:1.3.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\f25cf4cd530b2c6bc38371ddd553dc1d\workspace\transformed\multiplatform-settings-no-arg-release\AndroidManifest.xml:29:13-31:52
+55                android:name="com.russhwolf.settings.SettingsInitializer"
+55-->[com.russhwolf:multiplatform-settings-no-arg-android:1.3.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\f25cf4cd530b2c6bc38371ddd553dc1d\workspace\transformed\multiplatform-settings-no-arg-release\AndroidManifest.xml:30:17-74
+56                android:value="androidx.startup" />
+56-->[com.russhwolf:multiplatform-settings-no-arg-android:1.3.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\f25cf4cd530b2c6bc38371ddd553dc1d\workspace\transformed\multiplatform-settings-no-arg-release\AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+58                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+58-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+59                android:value="androidx.startup" />
+59-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+60        </provider>
+61
+62        <activity
+62-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
+63            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+63-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
+64            android:exported="true"
+64-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
+65            android:theme="@style/WhiteBackgroundTheme" >
+65-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
+66            <intent-filter android:priority="-100" >
+66-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+66-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+67-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
+71            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+71-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
+72            android:exported="true"
+72-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
+73            android:theme="@style/WhiteBackgroundTheme" >
+73-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
+74            <intent-filter android:priority="-100" >
+74-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+74-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+75-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
+79            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+79-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
+80            android:exported="true"
+80-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
+81            android:theme="@style/WhiteBackgroundDialogTheme" >
+81-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
+82            <intent-filter android:priority="-100" >
+82-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+82-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+83-->[androidx.test:core:1.5.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\a2d13171938724ea4eb28ec3300eca11\workspace\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+84            </intent-filter>
+85        </activity>
+86
+87        <receiver
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+88            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+89            android:directBootAware="false"
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+90            android:enabled="true"
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+91            android:exported="true"
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+92            android:permission="android.permission.DUMP" >
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+94                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+97                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+100                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+103                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Home\AppData\Local\Temp\cursor-sandbox-cache\a7440b4f2c308a90c50288bc6e708cdc\gradle\caches\9.1.0\transforms\74696b0d93845d0e1d9f094e63f3a29d\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+104            </intent-filter>
+105        </receiver>
+106    </application>
+107
+108</manifest>

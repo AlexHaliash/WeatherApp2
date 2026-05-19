@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.weatherapp.WeatherCacheManagerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-05-18T18:42:59.331Z" hostname="LAPTOP-8OLA8TFP" time="0.002">
+  <properties/>
+  <testcase name="persistAndReload_keepsDataInNewManagerInstance[jvm]" classname="com.example.weatherapp.WeatherCacheManagerTest" time="0.001"/>
+  <testcase name="getWeather_isCaseInsensitive[jvm]" classname="com.example.weatherapp.WeatherCacheManagerTest" time="0.0"/>
+  <testcase name="saveAndGet_returnsCachedWeather[jvm]" classname="com.example.weatherapp.WeatherCacheManagerTest" time="0.0"/>
+  <testcase name="getAllCachedCities_returnsSavedCityNames[jvm]" classname="com.example.weatherapp.WeatherCacheManagerTest" time="0.0"/>
+  <testcase name="clearCache_removesAllEntries[jvm]" classname="com.example.weatherapp.WeatherCacheManagerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

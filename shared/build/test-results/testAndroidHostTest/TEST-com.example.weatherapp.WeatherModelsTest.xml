@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.weatherapp.WeatherModelsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-05-18T18:45:30.902Z" hostname="LAPTOP-8OLA8TFP" time="0.002">
+  <properties/>
+  <testcase name="weatherApi_iconUrl_usesOpenWeatherCdn" classname="com.example.weatherapp.WeatherModelsTest" time="0.001"/>
+  <testcase name="deserializeWeatherResponse_parsesHumidityAndWind" classname="com.example.weatherapp.WeatherModelsTest" time="0.0"/>
+  <testcase name="deserializeWeatherResponse_parsesCityAndTemperature" classname="com.example.weatherapp.WeatherModelsTest" time="0.001"/>
+  <testcase name="serializeCachedWeather_roundTrip" classname="com.example.weatherapp.WeatherModelsTest" time="0.0"/>
+  <testcase name="deserializeWeatherResponse_parsesCondition" classname="com.example.weatherapp.WeatherModelsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
