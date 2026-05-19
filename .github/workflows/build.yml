@@ -45,7 +45,7 @@ jobs:
       - name: Build iOS Framework
         run: ./gradlew :shared:linkDebugFrameworkIosArm64
 
-  build-desktop:
+    build-desktop:
     name: Build for Desktop (Linux)
     runs-on: ubuntu-latest
     steps:
@@ -59,12 +59,12 @@ jobs:
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
       - name: Build Desktop Application
-        run: ./gradlew :composeApp:packageDistributionForCurrentOS
+        run: ./gradlew :shared:compileKotlinJvm   # или :shared:run
       - name: Upload Desktop App
         uses: actions/upload-artifact@v4
         with:
           name: desktop-app
-          path: composeApp/build/compose/binaries/main/*
+          path: shared/build/classes/kotlin/jvm/
 
   build-web:
     name: Build for Web (WASM)
@@ -80,9 +80,9 @@ jobs:
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
       - name: Build Web Application
-        run: ./gradlew :composeApp:wasmJsBrowserDistribution
+        run: ./gradlew :shared:wasmJsBrowserDistribution   # или :shared:jsBrowserDistribution
       - name: Upload Web App
         uses: actions/upload-artifact@v4
         with:
           name: web-app
-          path: composeApp/build/dist/wasmJs/productionExecutable/
+          path: shared/build/dist/wasmJs/productionExecutable/
